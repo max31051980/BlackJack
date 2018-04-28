@@ -1,7 +1,7 @@
 public class Player {
     private int valueCount;
     private int cardCount;
-    Card[] deckArray = new Card[52];
+    private Card[] deckArray = new Card[52];
     private int sum;
 
     public void addCard(Card a) {
